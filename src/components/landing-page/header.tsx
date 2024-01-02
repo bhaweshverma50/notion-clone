@@ -77,8 +77,8 @@ const Header = () => {
             >
                 <Image src={Logo} alt="Notter Logo" width={25} height={25} />
                 <span
-                    className="font-semibold
-          dark:text-white
+                    className="text-lg
+          font-semibold dark:text-white
         "
                 >
                     notter.
