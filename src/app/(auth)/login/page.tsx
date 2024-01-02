@@ -96,7 +96,7 @@ const LoginPage = () => {
                 <Button type="submit" className="w-full p-6" size="lg" disabled={isLoading}>
                     {!isLoading ? 'Login' : <Loader />}
                 </Button>
-                <span className="self-center">
+                <span className="self-container">
                     Dont have an account?{' '}
                     <Link href="/signup" className="text-primary">
                         Sign Up
