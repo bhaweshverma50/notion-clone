@@ -25,7 +25,7 @@ const HomePage = () => {
                 />
                 <div className="mt-6 rounded-xl bg-white bg-gradient-to-r from-primary to-brand-primaryBlue p-[2px] sm:w-[300px]">
                     <Button variant={'btn-secondary'} className="w-full  rounded-[10px] bg-background p-6 text-2xl">
-                        Get Cypress Free
+                        Get Notter Free
                     </Button>
                 </div>
                 <div className="relative ml-[-50px] mt-[-40px] flex w-[750px] items-center  justify-center sm:ml-0 sm:w-full md:mt-[-90px]">
@@ -120,7 +120,7 @@ const HomePage = () => {
                 <div className="mt-10 flex flex-col-reverse items-center justify-center  gap-4 sm:flex-row sm:items-stretch">
                     {PRICING_CARDS.map((card) => (
                         <CustomCard
-                            className={clsx('relative w-[300px] rounded-2xl backdrop-blur-3xl dark:bg-black/40', {
+                            className={clsx('relative mb-5 w-[300px] rounded-2xl backdrop-blur-3xl dark:bg-black/40', {
                                 'border-brand-primaryPurple/70': card.planType === PRICING_PLANS.proplan,
                             })}
                             key={card.planType}
